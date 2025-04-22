@@ -1,0 +1,19 @@
+import random
+
+while True :
+    choice = input("Roll the Dice ? Y or N : ").lower()
+    if choice == 'y':
+        dice1 = random.randint(1,6)
+        dice2 = random.randint(1,6)
+        
+        print(dice1 , dice2)
+        
+    elif choice == 'n':
+        print('Thanks for playing!')
+        break
+    else :
+        print("Invalid Choice")
+        
+    
+    
+    
