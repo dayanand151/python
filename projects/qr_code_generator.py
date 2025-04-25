@@ -1,4 +1,4 @@
-import qrcode
+import qrcode # type: ignore
 
 apple = qrcode.make("Apple 🍎")
 type(apple)
